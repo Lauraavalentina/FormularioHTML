@@ -1,0 +1,76 @@
+/*Estilos Generales*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+/*Color Texto*/
+.text-blue{
+    color:rgb(111, 153, 243);
+}
+/*Colores de Fondo*/
+.bg-white{
+    background-color: white;
+}
+/**/
+.bg-gray{
+    background-image: url(../Login/imagenes/Estrellas.jpg);
+    background-size: cover;
+    background-position-y: 30%;
+}
+/*Contenedor del Formulario*/
+.form-container{
+    width: 30%;
+    /* 1rem = 16px */
+    padding: 4rem;
+    height: 20rem;
+    /* <tipo de borde> <medida de borde> <color de borde>*/
+    border: solid 0.1rem gray;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* Posicion en X, posicion en Y, nivel de distorcion, color */
+    box-shadow: -11px 11px 10px rgba(0, 0, 0, 0.719);
+}
+/* Contenedor de los inputs */
+.input-container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.input-container input{
+    border-radius: 0.4rem;
+    border: solid 0.1rem gray;
+    padding: 0.4rem;
+    margin-top: 0.2rem;
+}
+/*Contenedor Checkbox*/
+.check-container{
+    margin-top: 0.5rem;
+}
+.check-container input{
+    margin-right: 1rem;
+}
+/*Estilos Boton*/
+.btn-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding: 0.7rem;
+    background-color: rgb(111, 153, 243);
+    border: 0px;
+    border-radius: 0.3rem;
+    color:white;
+}
+.btn:hover{
+    background-color: rgb(238, 158, 238);
+    color: black;
+}
+/*Alineacion del Formulario*/
+.screen-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
